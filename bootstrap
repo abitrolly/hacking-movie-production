@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "--- downloading FFMPEG into .bin/ ---"
+mkdir -p .bin
+cd .bin || exit
+curl -C - -O https://johnvansickle.com/ffmpeg/builds/ffmpeg-git-amd64-static.tar.xz
+echo "--- unpacking FFMPEG ---"
+tar xv --strip-components=1 -f ffmpeg-git-amd64-static.tar.xz
+cd ..
+echo "---"
