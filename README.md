@@ -3,9 +3,12 @@
 There is a legacy. A lot of legacy. A lot of people. Dreamers become blackmailers.
 World consumed by money.
 
-### Scripts
+### Scripts & Tools
 
-    `./bootstrap`    - downloads and unpacks FFMPEG into `.bin/`
+    `./bootstrap`    - downloads and unpacks `.bin/` tools
+
+    `./bin/ffmpeg`
+    `./bin/venv/bin/ffmpeg-normalize`
 
 ### Hacking Audio
 
