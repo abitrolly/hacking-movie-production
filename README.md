@@ -5,10 +5,10 @@ World consumed by money.
 
 ### Scripts & Tools
 
-    `./bootstrap`    - downloads and unpacks `.bin/` tools
+    ./bootstrap    - downloads and unpacks .bin/ tools
 
-    `./bin/ffmpeg`
-    `./bin/venv/bin/ffmpeg-normalize`
+    ./bin/ffmpeg
+    ./bin/venv/bin/ffmpeg-normalize
 
 ### Hacking Audio
 
