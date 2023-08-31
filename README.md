@@ -1,7 +1,7 @@
 ### Hacking Movie Production
 
-There is a legacy. A lot of legacy. A lot of people. Dreamers, who became blackmailers.
-Not because they wanted it, but because the world consumes money.
+There is a legacy. A lot of legacy. A lot of people. Dreamers become blackmailers.
+World consumed by money.
 
 ### Scripts
 
@@ -9,8 +9,9 @@ Not because they wanted it, but because the world consumes money.
 
 ### Hacking Audio
 
-Movie format for audio is 48kHz/24bit. Often moved as
-[AIFF](https://abitrolly.hashnode.dev/aiff-48-24) files.
+Historically movie format for audio is 48kHz/24bit. Often moved as
+[AIFF](https://abitrolly.hashnode.dev/aiff-48-24) files. The limitation of AIFF is 2Gb
+per file, which is 2 hours of stereo.
 
 Voices are recorded in mono and then panned if needed to left or right. When stereo
 recording device saves sound from mono mic, it may create stereo file with voice in the
