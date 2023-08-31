@@ -7,8 +7,10 @@ World consumed by money.
 
     ./bootstrap    - downloads and unpacks .bin/ tools
 
-    ./bin/ffmpeg
-    ./bin/venv/bin/ffmpeg-normalize
+    ./.bin/ffmpeg
+    ./.bin/venv/bin/ffmpeg-normalize
+
+    ./convert.sh   - converts left channel stereo WAV into mono AIFF 48kHz/24bit
 
 ### Hacking Audio
 
@@ -26,3 +28,11 @@ good and have enough cash to go on. The command to do so:
 
     ffmpeg -i ZOOM0038.WAV -c:a pcm_s24be -ar 48000 -af "pan=mono|FC=FL" output.aiff
 
+Or use `./convert.sh` script for batch processing.
+
+    SRC=RAW/DAY1 ./convert.sh
+
+**To join multiple .WAV files into one without gaps**, create a file list of what you
+want to join and
+
+    * [ ] add command
